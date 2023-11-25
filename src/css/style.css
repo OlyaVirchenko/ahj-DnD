@@ -1,0 +1,63 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  body {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      
+  }
+  .container {
+      width: 200px;
+      padding: 20px 5px;
+      background-color: #f2eeee;
+      border-radius: 5px;
+      margin: 0 auto;
+  }
+  
+  .draggable {
+      height: 40px;
+      margin: 10px 0;
+      border-radius: 5px;
+      background-color: #e7e4e4;
+      user-select: none;
+
+      position: relative;
+  }
+  
+  .draggable:hover {
+      background-color: #e3dcdc;
+  }
+
+  .close-btn {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    font-family: monospace;
+    top: 0px;
+    left: 184px;
+  }
+
+/**/
+
+.block-input {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.input {
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+}
+
+.invisible {
+    display: none;
+}
+
+.close-btn {
+    display: none;
+}
